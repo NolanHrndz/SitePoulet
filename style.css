@@ -1,0 +1,19 @@
+div {
+    background-color: darkgray;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 5px limegreen;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+img {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
