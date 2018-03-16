@@ -1,19 +1,69 @@
+body{
+    background-image: url("images/image-bienvenue.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 div {
-    background-color: darkgray;
-    color: #fff;
     padding: 15px;
-    border-bottom: 5px limegreen;
+    border-bottom: 5px;
     margin-bottom: 15px;
 }
 
-h1 {
+
+nav{
+    margin-top: 60px;
+}
+
+
+
+.titre{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 23px;
+}
+
+.couleurtexte{
+
+    color: white;
     text-align: center;
 }
-h2 {
-    text-align: center;
+
+/* creation de la barre de navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+
 }
-img {
-    max-width: 50%;
+/* Mise en forme de la barre de navigation */
+li a {
     display: block;
-    margin: auto;
+    text-align: center ;
+    padding: 10px 20px;
+    text-decoration: none ;
+    color: #ffffff;
+
+
+
+}
+/*Ombre barre de navigation*/
+li a:hover:not(.active) {
+    background-color: darkgreen;
+}
+
+
+/* navigation bar horizontale */
+li {
+    float: left;
+    diplay: block;
+}
+
+/* accueil autre couleur */
+li:first-child {
+    background: darkgreen;
+
 }
